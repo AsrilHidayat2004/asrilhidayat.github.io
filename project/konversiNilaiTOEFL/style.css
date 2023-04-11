@@ -1,0 +1,73 @@
+.get {
+	margin: 50px auto;
+	width: 900px;
+	display: flex;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.left {
+	flex: .5;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 20px;
+	font-size: 1.2em;
+}
+.right {
+	flex: 1.5;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+.right input {
+	width: 40%;
+}
+
+.get button {
+	position: absolute;
+	left: 0;
+	bottom: -40px;
+}
+.container {
+	margin: auto;
+	width: 900px;
+}
+
+.head {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	height: 37px;
+}
+.span {
+	flex: 1;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.head .score {
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.col {
+	width: 100%;
+	display: flex;
+}
+.spn {
+	flex: 1;
+	border: none;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	box-sizing: border-box;
+}

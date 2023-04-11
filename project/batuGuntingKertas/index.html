@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BGK</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+		<h1>Rock-Paper-Scissors Game</h1>
+	<main>
+		<div class="setting" id="setting">
+			<h4 style="font-size: 1.6em;">SETTINGS:</h4>
+			<label for="color">Background Color:</label>
+			<input type="color" id="color">
+			<label for="bgcolor-primary">Board Background Color:</label>
+			<div class="bg">
+				<div class="ktk r"></div>
+				<input type="range" class="cBg" id="sR" min="0" max="255">
+				<div class="ktk g"></div>
+				<input type="range" class="cBg" id="sG" min="0" max="255">
+				<div class="ktk b"></div>
+				<input type="range" class="cBg" id="sB" min="0" max="255">
+			</div>
+			<label for="bgcolor">Random Board Background Color:</label>
+			<button type="button" id="bgButton">ACTIVATE</button>
+			<div class="music">
+				<label>Music:</label>
+				<img src="music.png" width="20px" id="music">
+			</div>
+			<div class="sound">
+				<label>Sound:</label>
+				<img src="sound.png" width="20px" id="sound">
+			</div>
+		</div>	
+		<div class="container" id="ctn">
+			<div class="comp">
+				<div class="select"></div>
+			</div>
+			<div class="player">
+				<div class="select">✊</div>			
+				<div class="select">✌</div>			
+				<div class="select">✋</div>
+			</div>
+			<div class="hasil" id="result"></div>
+		</div>
+		<div class="score" id="score">
+			<h4>SCORES:</h4>
+			<br>
+			<p>WIN = <span id="scPlayer">0</span></p>
+			<p>LOSE = <span id="scComp">0</span></p>
+			<p>DRAW = <span id="draw">0</span></p>
+
+		<div class="set" id="sideSet">
+			<img src="setting.png" alt="" width="50px">
+			<h4>SETTINGS</h4>
+		</div>
+
+		</div>
+	</main>
+	<audio src="Sleep Away.mp3" autoplay loop></audio>
+	<script src="script.js"></script>
+</body>
+</html>

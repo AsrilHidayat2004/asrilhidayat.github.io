@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Digital Cashier</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h3>Menu Makanan:</h3>
+		<ol>
+			<li>Nasi Padang: 10.000</li>
+			<li>Rujak: 15.000</li>
+			<li>Sate 10.000</li>
+			<li>Soto 12.000</li>
+			<li>Bakso 7.000</li>
+		</ol>
+
+		<div class="input">
+			<label for="">Nama Makanan</label>
+			<input type="text" id="getMakanan">
+			<label for="">Jumlah</label>
+			<input type="number" id="jmlMakanan">
+			<button type="button" id="add">+</button>
+		</div>
+
+		<div class="content">
+			<div class="head">
+				<span class="span">Nama</span>
+				<span class="span">Harga</span>
+				<span class="span">Jumlah Dibeli</span>
+			</div>
+		</div>
+		<span class="total">Total: <span id="total"></span></span>
+
+	</div>
+
+
+
+	<script src="script.js"></script>
+</body>
+</html>
