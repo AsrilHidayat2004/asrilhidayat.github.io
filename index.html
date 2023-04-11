@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portofolio</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!-- nav -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top" style="z-index: 1;" id="nav">
+		<div class="container">
+			<a href="#" class="navbar-brand">Asril Hidayat</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expended="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+					<li class="setting">
+						<img src="img/setting.png" alt="" width="50px">
+					</li>
+					<li class="darkMode">
+						<button type="button" id="darkMode" class="border-light border-4">Dark Mode</button>
+						<span></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- nav end -->
+
+	<!-- jumbotron -->
+	<section class="jumbotron text-center" id="home">
+		<img src="img/hero.jpg" alt="me" width="200px" class="rounded-circle img-thumbnail">
+		<h1 class="display-4">Asril Hidayat</h1>
+		<div class="lead fw-200" id="text">I'm a <span id="textType"></span></div>
+	</section>
+	<!-- jumbotron end-->
+
+	<!-- about -->
+	<section id="about">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col">
+					<h2>About Me</h2>
+				</div>
+			</div>
+			<div class="row justify-content-evenly fs-5 text-center p-5">
+				<div class="col-md-4">
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quisquam, reiciendis iure est officia eius doloribus illum voluptatem, pariatur doloremque!</p>
+				</div>
+				<div class="col-md-4">
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium ab reiciendis esse, nam mollitia inventore eaque aliquid officiis cupiditate minus.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- about end -->
+
+	<!-- projects -->
+	<section id="projects" class="prC">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col fs-3 mb-3 fw-100">My Projects</div>
+			</div>
+			<div class="row justify-content-evenly">
+			<div class="col-md-4 mb-3">
+				<div class="card bg-primary" id="card">
+					<img src="img/toDoList2.jpg" alt="" class="card-img-top" alt="..." width="400px"/>
+					<div class="card-body text-center">
+						<h3 class="card-text">To-Do-List Ver.2</h3>
+						<button type="button" class="btn btn-danger" id="seeMore">See More...</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card bg-primary" id="card">
+					<img src="img/kasirDigital.jpg" alt="" class="card-img-top" alt="..." width="200px"/>
+					<div class="card-body text-center">
+						<h3 class="card-text">Kasir Digital</h3>
+						<button type="button" class="btn btn-danger" id="seeMore">See More...</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card bg-primary" id="card">
+					<img src="img/rpsGame.jpg" alt="" class="card-img-top" alt="..." width="200px"/>
+					<div class="card-body text-center">
+						<h3 class="card-text">R-P-S Game</h3>
+						<button type="button" class="btn btn-danger" id="seeMore">See More...</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card bg-primary" id="card">
+					<img src="img/colorSet.jpg" alt="" class="card-img-top" alt="..." width="200px"/>
+					<div class="card-body text-center">
+						<h3 class="card-text">Color Set</h3>
+						<button type="button" class="btn btn-danger" id="seeMore">See More...</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card bg-primary" id="card">
+					<img src="img/galleryImage.jpg" alt="" class="card-img-top" alt="..." width="200px" />
+					<div class="card-body text-center">
+						<h3 class="card-text">Gallery Image</h3>
+						<button type="button" class="btn btn-danger" id="seeMore">See More...</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="card bg-primary" id="card">
+					<img src="img/toefl.jpeg" alt="" class="card-img-top" alt="..." width="200px" />
+					<div class="card-body text-center">
+						<h3 class="card-text">TOEFL Value Convert</h3>
+						<button type="button" class="btn btn-danger" id="seeMore">See More...</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+	</section>
+	<!-- projects end -->
+
+	<!-- ontact -->
+	<section id="contact">
+		<div class="container">
+			<div class="row text-center mb-3">
+				<div class="col">
+					<h2>Contact</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-6">
+					<form action="">
+						<div class="mb-3">
+							<label class="form-label" for="name">Name</label>
+							<input type="text" class="form-control" id="name" aria-describedby="name"/>
+						</div>
+						<div class="mb-3">
+							<label for="email" class="form-label">Email</label>
+							<input type="email" class="form-control" id="email" aria-describedby="email"/>
+						</div>
+						<div class="mb-3">
+							<label for="pesan" class="form-label">Pesan</label>
+							<textarea id="pesan" class="form-control" rows="3"></textarea>
+						</div>
+						<button type="submit" class="btn - btn-danger">Kirim</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- contatct end -->
+
+	<!-- footer -->
+	<footer class="bg-primary text-center text-white pb-2 pt-3">
+		<p>Created with love by <a href="" class="text-white fw-bold">Asril Hidayat</a></p>
+	</footer>
+	<!-- footer end -->
+<script src="script.js"></script>
+</body>
+</html>
