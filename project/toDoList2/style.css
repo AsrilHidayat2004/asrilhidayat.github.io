@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #eaeaea;
+}
+.container {
+	width: 900px;
+	margin: 100px auto;
+	position: relative;
+}
+.container button {
+	position: absolute;
+	bottom: -50px;
+	left: 0;
+	padding: 8px 15px;
+	border-radius: 6px;
+	color: white;
+	background-color: darkred;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.container .head {
+	width: 100%;
+	display: flex;
+/*	border: 1px solid black;*/
+}
+.container .head span {
+	display: flex;
+	flex: 1;
+	border: 1px solid black;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+}
+/*
+.biru {
+	background-color: blue;
+}
+.hijau {
+	background-color: green;
+}
+.pink {
+	background-color: pink;
+}*/
+
+.input {
+	width: 800px;
+	height: 200px;
+	margin: 50px auto;
+	display: flex;
+	position: relative;
+}
+.input button {
+	position: absolute;
+	bottom: -55px;
+	left: 0;
+	border: none;
+	border-radius: 7px;
+	background-color: skyblue;
+	color: white;
+	cursor: pointer;
+	padding: 7px 18px;
+	font-size: 1.1em;
+}
+.input .left {
+	flex: .3;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.input .right input {
+	padding: 3px;
+}
+
+.input .right {
+	flex: .3;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+.input .right .inputHT {
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+}
+.input .right .inputHT #inputHari {
+	width: 30%;
+}
+.input .right .inputHT #inputTanggal {
+	width: 60%;
+}
+.input .right input {
+	width: 100%;
+}
